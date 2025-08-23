@@ -3,10 +3,10 @@
 
 // Number()
 
-let score = 33
-let valueInNumber = Number(score)
-console.log( valueInNumber );
-console.log(typeof valueInNumber );
+// let score = 33
+// let valueInNumber = Number(score)
+// console.log( valueInNumber );
+// console.log(typeof valueInNumber );
 
 // conversion into number 
 /*
@@ -24,10 +24,10 @@ false => 0 => number
 
 // Boolean()
 
-let num = undefined
-let boolNum = Boolean(num)
-console.log( boolNum );
-console.log(typeof boolNum );
+// let num = undefined
+// let boolNum = Boolean(num)
+// console.log( boolNum );
+// console.log(typeof boolNum );
 
 // conversion into boolean 
 /*
@@ -47,10 +47,10 @@ else true
 
 // String()
 
-let value = 0.000000000
-let stringValue = String(value)
-console.log( stringValue );
-console.log(typeof stringValue );
+// let value = 0.000000000
+// let stringValue = String(value)
+// console.log( stringValue );
+// console.log(typeof stringValue );
 
 // conversion into number 
 /*
@@ -65,3 +65,13 @@ true => true => string
 false => false => string
 
 */
+//****************************** Operations ***********************************************
+let x=24
+let y=-x
+let a=-4, b=3
+let sum=a+b
+let p=a**b**2   // (a^(b^2))=2^(3^2)=2^9   right to left
+let d=a%b
+console.log(d);
+console.log(typeof(d));
+
